@@ -1,0 +1,27 @@
+{
+    "version": "4.4.4",
+    "description": "滴答清单 效率工具 管理时间（破解版本）.",
+    "homepage": "https://ticktick.com/home",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/coder-user/my_bucket/raw/main/soft/TickTick-vip-v4.4.4.exe",
+            "hash": "23693dad88826ddde46ab8a91b04dc9de31dfd84c1dbc11f0d7e1f1bad64f5aa"
+        }
+    },
+    "post_install": [
+        "cd $env:USERPROFILE\\scoop\\apps\\ticktick-vip\\4.4.4",
+        "Invoke-WebRequest -Uri \"https://github.com/coder-user/my_bucket/raw/main/soft/TickTick-vip-v4.4.4-pj.exe\" -OutFile \"pj.exe\"",
+        "pwd",
+        "Start-Process pj.exe",
+        "echo \"will: Remove-Item pj.exe\""
+    ],
+    "shortcuts": [
+        [
+            "TickTick.exe",
+            "TickTick"
+        ]
+    ],
+    "persist": "TickTick.exe.config",
+    "innosetup": true
+}

