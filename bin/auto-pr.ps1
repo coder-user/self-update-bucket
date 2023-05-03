@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "coder-user/my_bucket:main"
+    [String]$upstream = "coder-user/self-update-bucket:main"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
