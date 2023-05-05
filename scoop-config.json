@@ -1,0 +1,420 @@
+{
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2023-05-05T20:30:14+08:00",
+            "Manifests": 1863
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2023-05-05T20:30:25+08:00",
+            "Manifests": 1197
+        },
+        {
+            "Name": "my-bucket",
+            "Source": "https://github.com/coder-user/my_bucket",
+            "Updated": "2023-05-04T23:14:16+08:00",
+            "Manifests": 4
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2023-05-03T03:54:49+08:00",
+            "Manifests": 221
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": "2023-05-05T16:32:12+08:00",
+            "Manifests": 127
+        },
+        {
+            "Name": "self-update-bucket",
+            "Source": "https://github.com/coder-user/self-update-bucket",
+            "Updated": "2023-05-05T22:52:50+08:00",
+            "Manifests": 19
+        }
+    ],
+    "apps": [
+        {
+            "Version": "22.01",
+            "Name": "7zip",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-04-15T14:47:02.2445556+08:00"
+        },
+        {
+            "Version": "4.3.1",
+            "Name": "aliyundrive",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-05T22:55:56.9482766+08:00"
+        },
+        {
+            "Version": "2.2.38",
+            "Name": "apifox",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-04T22:27:42.3976319+08:00"
+        },
+        {
+            "Version": "7.27.1.5",
+            "Name": "BaiduNetdisk",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:34:17.7246495+08:00"
+        },
+        {
+            "Version": "0.20.22",
+            "Name": "Clash-for-Windows_Chinese",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:19:15.2188993+08:00"
+        },
+        {
+            "Version": "3.11.2",
+            "Name": "dark",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-05-03T23:34:18.1621512+08:00"
+        },
+        {
+            "Version": "21.2.8",
+            "Name": "draw.io",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-05-05T22:55:20.5019299+08:00"
+        },
+        {
+            "Version": "3.5.8",
+            "Name": "etcd",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-05-05T22:38:14.7164242+08:00"
+        },
+        {
+            "Version": "1.4.1.1022",
+            "Name": "everything",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-15T15:58:28.0098977+08:00"
+        },
+        {
+            "Version": "116.8.5",
+            "Name": "figma",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-19T23:31:38.7934198+08:00"
+        },
+        {
+            "Version": "2.3.3",
+            "Name": "FiraCode-NF",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2023-04-20T23:13:25.7209277+08:00"
+        },
+        {
+            "Version": "4.120",
+            "Name": "flux",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-16T13:45:01.8710249+08:00"
+        },
+        {
+            "Version": "6.19.0.5156",
+            "Name": "freedownloadmanager",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-18T23:37:10.3909217+08:00"
+        },
+        {
+            "Version": "0.48.0",
+            "Name": "frp",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-05-03T21:22:20.750161+08:00"
+        },
+        {
+            "Version": "1.5.1.162",
+            "Name": "geekuninstaller",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-16T13:43:16.0069253+08:00"
+        },
+        {
+            "Version": "2.40.1.windows.1",
+            "Name": "git",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-04-26T21:44:22.2108445+08:00"
+        },
+        {
+            "Version": "9.3.0",
+            "Name": "gitkraken-vip",
+            "Source": "my-bucket",
+            "Info": "",
+            "Updated": "2023-04-17T16:39:39.3559658+08:00"
+        },
+        {
+            "Version": "1.20.4",
+            "Name": "go",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-05-03T09:46:58.0596998+08:00"
+        },
+        {
+            "Version": "2023.1-231.8109.199",
+            "Name": "goland",
+            "Source": "extras",
+            "Info": "Held package",
+            "Updated": "2023-05-03T21:29:45.0428887+08:00"
+        },
+        {
+            "Version": "1.0.1",
+            "Name": "im-select",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:19:15.3218959+08:00"
+        },
+        {
+            "Version": "0.50",
+            "Name": "innounp",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-04-17T14:11:45.9188685+08:00"
+        },
+        {
+            "Version": "2.2.2",
+            "Name": "lx-music-desktop",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:19:19.0740316+08:00"
+        },
+        {
+            "Version": "5.300",
+            "Name": "LXGW-Bright",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2023-05-03T09:47:21.2007905+08:00"
+        },
+        {
+            "Version": "1.300",
+            "Name": "LXGWWenKai",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2023-05-03T09:47:39.153672+08:00"
+        },
+        {
+            "Version": "4.19.1.1003",
+            "Name": "mailmaster",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:19:22.2324206+08:00"
+        },
+        {
+            "Version": "6.3",
+            "Name": "Maple-Mono-NF",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Updated": "2023-04-20T23:05:00.9641027+08:00"
+        },
+        {
+            "Version": "1.8.19",
+            "Name": "motrix",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-05-04T22:30:17.9387407+08:00"
+        },
+        {
+            "Version": "2.13.4",
+            "Name": "mouseinc",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-05T12:45:07.3339229+08:00"
+        },
+        {
+            "Version": "7.1.0",
+            "Name": "neofetch",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-04-15T16:45:50.285494+08:00"
+        },
+        {
+            "Version": "0.9.0",
+            "Name": "neovim",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-04-15T15:30:36.6989126+08:00"
+        },
+        {
+            "Version": "20.1.0",
+            "Name": "nodejs",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-05-04T22:27:56.3813938+08:00"
+        },
+        {
+            "Version": "8.5.2",
+            "Name": "notepadplusplus",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-19T23:26:36.9745801+08:00"
+        },
+        {
+            "Version": "2.0.43",
+            "Name": "notion",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-26T21:45:08.6418156+08:00"
+        },
+        {
+            "Version": "1.2.7",
+            "Name": "obsidian",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-05-03T09:48:10.0313546+08:00"
+        },
+        {
+            "Version": "15.4.2",
+            "Name": "oh-my-posh",
+            "Source": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json",
+            "Info": "",
+            "Updated": "2023-05-04T22:28:07.2541018+08:00"
+        },
+        {
+            "Version": "230405",
+            "Name": "potplayer",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-18T23:18:17.0505074+08:00"
+        },
+        {
+            "Version": "7.3.4",
+            "Name": "powershell",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:34:55.9914882+08:00"
+        },
+        {
+            "Version": "2.5.20",
+            "Name": "quarkpan",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:35:07.1794056+08:00"
+        },
+        {
+            "Version": "2.8.3-Beta",
+            "Name": "snipaste-beta",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:35:18.5080715+08:00"
+        },
+        {
+            "Version": "0.2020.01.26",
+            "Name": "sudo",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-04-17T13:08:31.9413211+08:00"
+        },
+        {
+            "Version": "3.4.6",
+            "Name": "sumatrapdf",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-19T00:41:26.7373471+08:00"
+        },
+        {
+            "Version": "4.5.0.1",
+            "Name": "ticktick-vip",
+            "Source": "my-bucket",
+            "Info": "",
+            "Updated": "2023-05-04T23:15:30.0565738+08:00"
+        },
+        {
+            "Version": "4.6.2.3",
+            "Name": "todesk",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:37:17.2191102+08:00"
+        },
+        {
+            "Version": "1.84.1",
+            "Name": "trafficmonitor",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-18T23:56:35.8750226+08:00"
+        },
+        {
+            "Version": "1.4.8",
+            "Name": "typora-vip",
+            "Source": "my-bucket",
+            "Info": "",
+            "Updated": "2023-04-19T23:14:54.3800507+08:00"
+        },
+        {
+            "Version": "3.3.0",
+            "Name": "utools",
+            "Source": "self-update-bucket",
+            "Info": "",
+            "Updated": "2023-05-03T23:37:26.4222365+08:00"
+        },
+        {
+            "Version": "1.78.0",
+            "Name": "vscode",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-05-04T22:28:56.4243603+08:00"
+        },
+        {
+            "Version": "3.9.2.23",
+            "Name": "wechat",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-16T13:46:39.6820613+08:00"
+        },
+        {
+            "Version": "1.16.10261.0",
+            "Name": "windows-terminal",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-15T15:53:29.9482059+08:00"
+        },
+        {
+            "Version": "3.11.2",
+            "Name": "wixtoolset",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-05-03T21:43:17.8166351+08:00"
+        },
+        {
+            "Version": "4.13",
+            "Name": "wiztree",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-05-05T22:59:04.7527017+08:00"
+        },
+        {
+            "Version": "11.2.0.11537",
+            "Name": "wpsoffice",
+            "Source": "extras",
+            "Info": "",
+            "Updated": "2023-04-27T21:04:40.822664+08:00"
+        },
+        {
+            "Version": "22.11.3",
+            "Name": "xmind-vip",
+            "Source": "my-bucket",
+            "Info": "",
+            "Updated": "2023-04-19T00:28:52.4808686+08:00"
+        },
+        {
+            "Version": "1.22.19",
+            "Name": "yarn",
+            "Source": "main",
+            "Info": "",
+            "Updated": "2023-04-17T15:43:58.5767592+08:00"
+        }
+    ]
+}
