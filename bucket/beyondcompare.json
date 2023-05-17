@@ -28,9 +28,7 @@
             }
         }
     },
-    "post_install": {
-        "script": "sudo \"$bucketsdir\\self-update-bucket\\scripts\\beyondcompare-free.ps1\""
-    },
+    "post_install": "sudo \"$bucketsdir\\self-update-bucket\\scripts\\beyondcompare-free.ps1\"",
     "notes": "It will reset the trial automatically every 7 Days.",
     "shortcuts": [
         [
