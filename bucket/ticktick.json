@@ -22,7 +22,7 @@
     ],
     "persist": "TickTick.exe.config",
     "checkver": {
-        "url": "https://gist.github.com/qyurila/f85676b9caeb1917d0f3eecfa2d5fcc0",
+        "url": "https://gist.github.com/coder-user/86b0c09bb9dad40775352aa4fc60d06b",
         "regex": "ticktick: ([\\.\\d]+)"
     },
     "autoupdate": {
