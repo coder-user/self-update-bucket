@@ -1,11 +1,11 @@
 {
   "name": "gitcracken",
   "description": "GitKraken utils for non-commercial use",
-  "author": "PMExtra, KillWolfVlad",
-  "version": "8.4.0",
+  "author": "Coolliuzw",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
-  "homepage": "https://blog.jubeat.net/",
+  "homepage": "https://google.com",
   "main": "dist/index.js",
   "bin": {
     "gitcracken": "dist/bin/gitcracken.js"
