@@ -1,13 +1,13 @@
 {
-    "version": "3.1.8-beta1",
+    "version": "3.1.8",
     "description": "A GUI to manage Winget and Scoop packages",
     "homepage": "https://github.com/martinet101/WingetUI",
     "license": "LGPL-2.1-or-later",
     "suggest": {
         "vcredist": "extras/vcredist"
     },
-    "url": "https://github.com/martinet101/WingetUI/releases/download/3.1.8-beta1/WingetUI.Installer.exe",
-    "hash": "5361b3ced3f9c9fa896b0d3af9bc2b01b53fd05de10ad67a244cdcf2a68fb4bd",
+    "url": "https://github.com/martinet101/WingetUI/releases/download/3.1.8/WingetUI.Installer.exe",
+    "hash": "646abe5ba7a0f2cc5fd8dceccfbe6f58036fc542ba921f67eaabc4e488a444c2",
     "innosetup": true,
     "shortcuts": [
         [
